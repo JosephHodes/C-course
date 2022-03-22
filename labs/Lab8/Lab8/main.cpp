@@ -4,15 +4,12 @@
 //
 //  Created by joseph on 3/14/22.
 //
-
 #include <iostream>
 using namespace std;
-
 int main(int argc, const char * argv[]) {
     int input,accumulator=0 ,index=0;
     char user;
     while(1){
-        index++;
         cout << "enter a temperature";
         cin >>input;
         
@@ -27,5 +24,6 @@ int main(int argc, const char * argv[]) {
                 break;
             }
         }
+        index++;
     }
 }
